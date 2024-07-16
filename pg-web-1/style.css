@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.cabecalho {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.logo {
+    margin: 10px;
+}
+
+.menu {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.link {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #87CEFA;
+}
+
+.lupa {
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.btn-comece {
+    width: 180px;
+    height: 45px;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 600;
+    background-color: #bdf300;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn-comece:hover {
+    opacity: 0.8;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login:hover {
+    opacity: 0.8;
+}
+
+.globo {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.globo:hover {
+    opacity: 0.8;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    width: 40%;
+    line-height: 56px;
+    font-size: 24px;
+    font-weight: 900;
+    font-weight: bold;
+    margin: 80px 0 10px 80px;
+
+}
+
+.texto {
+    width: 37%;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.9;
+}
+
+.btn-cadastro {
+    width: 180px;
+    height: 45px;
+    font-size: 14px;
+    margin: 40px 0 0 80px;
+    font-weight: 600;
+    background-color: #bdf300;
+    padding: 8px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-cadastro:hover {
+    opacity: 0.8;
+}
+
+.video {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 50%;
+    position: absolute;
+}
+
+.faixa-1 {
+    top: 0;
+    position: absolute;
+    margin-top: 85px;
+    background: #4CA9FF;
+    width: 280px;
+    height: 85%;
+    margin-left: 77%;
+    z-index: -1;
+}
+
+.faixa-2 {
+    top: 0;
+    position: absolute;
+    margin-top: 85px;
+    background:#9CCFFF;
+    width: 280px;
+    height: 85%;
+    margin-left: 56.5%;
+    z-index: -1;
+}

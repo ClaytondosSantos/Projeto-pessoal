@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(./image/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-color: #1F1F1F;
+}
+
+.incone-pequeno img {
+    color: #f4eeee;
+    width: 80px;
+    height: 60px;
+}
+
+.cabecalho {
+    display: flex;
+    width: 95%;
+    height: 60px;
+    top: 0;
+    position: absolute;
+    margin-left: 80px;
+    align-items: center;
+    background-color: #000;
+    opacity: 0.9;
+    color: #FFF;
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.links {
+    display: flex;
+    list-style: none;
+}
+
+.link {
+    display: flex;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 230px;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #a99f9f;
+}
+
+.link:active {
+    opacity: 0.4;
+}
+
+.sessão-pag-incial {
+    display: flex;
+}
+
+.botao__agendar {
+    margin-top: 30%;
+    width: 400px;
+    height: 291.5px;
+}
+
+.btn__agende {
+    width: 250px;
+    height: 60px;
+    margin: 15% 0 0px 120px;
+    background-color: #B4C5BD;
+    color: #000;
+    font-size: 20PX;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn__agende:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+.btn__agende:active {
+    opacity: 0.4;
+
+}
+
+.btn__agende a {
+    text-decoration: none;
+    color: #000;
+    margin: 2px auto;
+}
+
+.texto-pg-incial {
+    margin: 10% 0 0 37%;
+    height: 200px;
+}
+
+.titulo {
+    width: 70%;
+    font-size: 20px;
+    color: #B4C5BD;
+    letter-spacing: 1.3px;
+    line-height: 1.2; 
+}
+
+.texto-incio {
+    font-size: 20px;
+    font-weight: 400;
+    color: #B4C5BD;
+    letter-spacing: 1px;
+    line-height: 1.1;
+
+}
+
+.titulo-planos {
+    color: #B4C5BD;
+    letter-spacing: 3px;    
+    font-size: 20px;  
+    padding: 30px; 
+}
+
+.planos {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;   
+    background-image: url(./image/textura-de-concreto-preto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;   
+    padding: 50px;
+}
+
+.plano-mensal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #B4C5BD;
+    width: 300px;
+    height: 350px;
+    margin: 10% 0;
+    border-radius: 20px;
+}
+
+.plano-mensal h3 {
+    text-align: center;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.plano-mensal p {
+    margin-top: 10px;
+    width: 180px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.plano-anual {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #B4C5BD;
+    width: 300px;
+    height: 350px;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+
+.plano-anual h3 {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.plano-anual p {
+    margin-top: 10px;
+    width: 180px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.back-cadastro {
+    width: 100%;
+    background-color: #8F8F8F;   
+}
+
+.texto-cadastro {
+    width: 600px;
+    font-size: 18px;
+    color: #B4C5BD;
+    margin-left: 380px;
+    padding: 20px;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    padding: 10px;
+
+}
+
+.banner-cadastro {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.banner-cadastro img {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.sessao-castro {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 200px 0 100px;
+}
+
+#cadastro {
+    width: 400px;
+}
+
+input {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #B4C5BD;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+
+#input-hora {
+    width: 100px;
+}

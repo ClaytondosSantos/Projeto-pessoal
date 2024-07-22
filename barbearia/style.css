@@ -43,10 +43,12 @@ body {
 
 .link {
     display: flex;
+    color: #FFF;
     font-weight: 600;
     font-size: 18px;
     margin-left: 230px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .link:hover {

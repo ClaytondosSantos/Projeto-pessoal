@@ -61,9 +61,11 @@ body {
 
 .sessão-pag-incial {
     display: flex;
+    justify-content: space-between;
+    width: 90%;
 }
 
-.botao__agendar {
+.botao__agendar {    
     margin-top: 30%;
     width: 400px;
     height: 291.5px;
@@ -99,8 +101,9 @@ body {
 }
 
 .texto-pg-incial {
-    margin: 10% 0 0 37%;
+    margin: 10% 0 0 60%;
     height: 200px;
+    position: absolute;
 }
 
 .titulo {

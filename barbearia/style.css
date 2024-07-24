@@ -259,3 +259,14 @@ input {
 #input-hora {
     width: 100px;
 }
+
+.btn__confirmar button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #B4C5BD;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}

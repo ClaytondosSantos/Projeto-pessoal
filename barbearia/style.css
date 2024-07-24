@@ -91,7 +91,6 @@ body {
 
 .btn__agende:active {
     opacity: 0.4;
-
 }
 
 .btn__agende a {
@@ -120,7 +119,6 @@ body {
     color: #B4C5BD;
     letter-spacing: 1px;
     line-height: 1.1;
-
 }
 
 .titulo-planos {
@@ -173,7 +171,7 @@ body {
     background-color: #B4C5BD;
     width: 300px;
     height: 350px;
-    margin-top:15%;
+    margin-top: 15%;
     border-radius: 20px;
 }
 
@@ -198,16 +196,15 @@ body {
     padding: 10px;
 }
 
-.texto-cadastro {   
+.texto-cadastro {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 70px 0 30px 0;
     font-size: 14px;
-    color: #B4C5BD;   
+    color: #B4C5BD;
     letter-spacing: 1px;
-    line-height: 1.1; 
-
+    line-height: 1.1;
 }
 
 .banner-cadastro {
@@ -218,7 +215,7 @@ body {
 .banner-cadastro img {
     display: flex;
     width: 400px;
-    height: 400px;  
+    height: 400px;
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -237,7 +234,6 @@ body {
     display: flex;
     margin-left: 200px;
     gap: 30px;
-
 }
 
 #cadastro {
@@ -261,12 +257,29 @@ input {
 }
 
 .btn__confirmar button {
-    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 120px;
     height: 40px;
     border-radius: 20px;
     border: none;
     background-color: #B4C5BD;
     font-size: 14px;
     font-weight: 500;
-    cursor: pointer;
+    cursor: pointer; 
+    letter-spacing: 2px;
+}
+
+.btn__confirmar:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+.btn__confirmar:active {
+    opacity: 0.4;
+}
+
+.btn__confirmar a {
+    text-decoration: none;  
 }

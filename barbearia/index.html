@@ -53,7 +53,7 @@
 
     <section class="planos" id="planos">
 
-        <div class="plano-mensal">
+        <button  class="plano-mensal" onclick="confirmar()">
             <h3>PLANO MENSAL</h3>
             <p>
                 Corte de cabelo a partir de R$ 120,00.
@@ -64,14 +64,14 @@
             <P>
                 Combo a partir de R$ 200,00.
             </P>
-        </div>
+        </button>
 
         <div class="titulo-planos">
             <h2>FAÇA SEU PLANO</h2>
-        </div>
+        </div>     
 
-        <div class="plano-anual">
-            <p>
+       
+        <button class="plano-anual" onclick="confirmar()">
             <h3>PLANO ANUAL</h3>
             <p>
                 Corte de cabelo a partir de R$ 1400,00.
@@ -81,9 +81,10 @@
             </p>
             <P>
                 Combo a partir de R$ 2300,00.
-            </P>
-            </p>
-        </div>
+            </P>   
+        </button>     
+                  
+        
     </section>
 
     <section class="back-cadastro">
@@ -125,7 +126,7 @@
                 </div>
 
                 <div class="btn__confirmar">
-                    <a href=""><button type="submit" onclick="confirmar()">CONFIRMAR</button></a>
+                <button type="submit">CONFIRMAR</button>
                 </div>
         </form>
 

@@ -1,5 +1,5 @@
  function confirmar() {
-  console.log("fui clicado");    
+  console.log("ok");    
  }
 
 

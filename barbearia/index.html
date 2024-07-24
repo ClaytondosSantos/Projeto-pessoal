@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -110,21 +110,24 @@
             </div>
         </div>
 
-        <div class="sessao-cadastro">
-            <div>
-                <input placeholder="Nome" type=" text" name="nome" id="cadastro">
-            </div>
-            <div>
-                <input type="date">
-            </div>
-            <div>
-                <input type="time" id="input-hora">
-            </div>
+        <form class="sessao-cadastro" 
+          action="https://formcarry.com/s/REVB83jobEX" 
+          method="POST"
+          enctype="multipart/form-data">
+                <div>
+                    <input placeholder="Nome" type=" text" name="nome" id="cadastro">
+                </div>
+                <div>
+                    <input placeholder="data" type="date" name="data">
+                </div>
+                <div>
+                    <input placeholder="horário" type="time" name="horas" id="input-hora">
+                </div>
 
-            <div class="btn__confirmar">
-                <a href="#"><button type="submit" onclick="confirmar()">CONFIRMAR</button></a>
-            </div>    
-        </div>
+                <div class="btn__confirmar">
+                    <a href=""><button type="submit" onclick="confirmar()">CONFIRMAR</button></a>
+                </div>
+        </form>
 
 
         <script src="./index.js"></script>
@@ -132,3 +135,14 @@
 </body>
 
 </html>
+
+
+
+
+
+<!--<form class="formulario-fale-conosco" action="https://formcarry.com/s/IRjHfjk7tgb" method="POST" enctype="multipart/form-data">
+        <input class="input" placeholder="Nome" type=" text" name="nome">
+        <input class="input" placeholder="Telefone" type="tel" name="telefone">
+        <textarea class="campo-digite-problema" placeholder=" Digite o problema aqui..." name="duvida"></textarea>
+        <button type="submit" class="btn-orçamento">Fazer Orçamento</button>
+    </form>-->

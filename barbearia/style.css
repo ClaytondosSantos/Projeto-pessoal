@@ -117,7 +117,7 @@ body {
 .titulo {
     width: 70%;
     font-size: 20px;
-    color: #B4C5BD;
+    color: #FFF;
     letter-spacing: 1.3px;
     line-height: 1.2;
 }
@@ -125,7 +125,7 @@ body {
 .texto-incio {
     font-size: 20px;
     font-weight: 400;
-    color: #B4C5BD;
+    color: #FFF;
     letter-spacing: 1px;
     line-height: 1.1;
 }

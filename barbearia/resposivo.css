@@ -1,0 +1,28 @@
+@media screen and (max-width: 1300px) {
+
+    .logo-1 {
+        display: none;
+    }
+       
+       .material-symbols-outlined {   
+        display: flex;        
+        color: #FFF;
+        height: 60px;
+        flex-direction: column;
+       } 
+
+    .menu {
+        width: 30%;
+    }   
+
+    .menu ul {
+    display: flex;
+    flex-direction: column;  
+    
+    }  
+
+    .menu li {
+        margin: 10px 200px 0 0;
+    }
+
+}

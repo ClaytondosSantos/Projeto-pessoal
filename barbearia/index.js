@@ -24,21 +24,6 @@ document.getElementById("menu").addEventListener("click", mostrarEsconderMenu);
 
 
 
-let adicionarData = [];
-let datasPreenchidas = [];
-let novaData = [];
-
-function confirmar() {  
-   adicionarData.date
-    if (adicionarData.push(novaData)) {
-        console.log("Data adicionada com sucesso: " + novaData);
-    } else {      
-        datasPreenchidas.includes(novaData);
-        console.log("Data já preenchida. Por favor, escolha outra data.");
-    }
-}
-
-document.addEventListener("click", confirmar);
 
 
 

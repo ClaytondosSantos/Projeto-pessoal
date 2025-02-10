@@ -17,27 +17,30 @@
 </head>
 
 <body>
+    <div class="img">
+        <img class="banner" src="./image/banner.jpg" alt="">
+    </div> 
+    
+        <span class="material-symbols-outlined" id="menu">menu</span>  
 
-    <header class="menu">        
-            <span class="material-symbols-outlined" onclick="menu()">menu</span>                       
-            <ul class=" links">
-                <li><a href="#" class=" link">SERVIÇOS</a></li>
-                <li><a href="#" class="link">GALERIA</a></li>
-                <li><a href="https://wa.me/" class="link">CONTATO</a></li>
-            </ul>  
-            <img class="logo-1" src="./image/logo-1.jpg" alt="">   
+    <header class="menu">
+        <ul>
+            <li><a href="#" class=" link">SERVIÇOS</a></li>
+            <li><a href="#" class="link">GALERIA</a></li>
+            <li><a href="https://wa.me/" class="link">CONTATO</a></li>
+        </ul>
+        <img class="logo-1" src="./image/logo-1.jpg" alt="">
     </header>
 
-    <section class="sessão-pag-incial">
-        <div class="botao__agendar">
-            <a href="#planos"><button class="btn__agende">
-                    ESCOLHA SEU PLANO</button></a>
+    <section class="sessão-pag-incial">        
+        <div class="botao-agendar-plano">
+            <a href="#planos"><button class="btn-escolher-plano">
+                ESCOLHA SEU PLANO</button></a>
+
+            <a href="#cadastro"><button class="btn-agendar-horario">
+                 AGENDE SEU HORÁRIO</button></a>         
         </div>
 
-        <div class="botao__agendar">
-            <a href="#cadastro"><button class="btn__agende">
-                    AGENDE SEU HORÁRIO</button></a>
-        </div>
 
         <div class="texto-pg-incial">
             <div class="titulo">
@@ -49,6 +52,7 @@
             </div>
         </div>
     </section>
+
 
     <section class="planos" id="planos">
 
@@ -108,25 +112,30 @@
             <div>
                 <p>CORTE DE BARBA</p>
             </div>
+            <!--action="https://formcarry.com/s/REVB83jobEX" method="POST"
+            enctype="multipart/form-data" -->
         </div>
+        <form class="sessao-cadastro" >
+            <div class="input-nome">
+                <input class="input-nome" placeholder="Nome" type=" text" name="nome" id="cadastro">
+            </div>
+            <div class="input-data">
+                <input class="input-data" placeholder="data" type="date" name="data">
+            </div>
+            <div class="input-hora">
+                <input class="input-hora" placeholder="horário" type="time" name="horas" id="input-hora">
+            </div>      
+            <div class="btn-confirmar">
+                <button>CONFIRMAR</button>
+            </div>  
+        </form>        
 
-        <form class="sessao-cadastro" action="https://formcarry.com/s/REVB83jobEX" method="POST"
-            enctype="multipart/form-data">
-            <div>
-                <input placeholder="Nome" type=" text" name="nome" id="cadastro">
-            </div>
-            <div>
-                <input placeholder="data" type="date" name="data">
-            </div>
-            <div>
-                <input placeholder="horário" type="time" name="horas" id="input-hora">
-            </div>
-
-            <div class="btn__confirmar">
-                <button type="submit">CONFIRMAR</button>
-            </div>
-        </form>
-
+        <footer>
+            <div class="rodape">
+                <img src="./image/textura-de-concreto-preto.jpg" alt=""> 
+            </div>            
+                               
+        </footer>
 
         <script src="./index.js"></script>
 
